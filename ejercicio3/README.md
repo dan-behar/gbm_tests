@@ -1,8 +1,17 @@
-- Execute:
+## Ejercicio 1: 
+- Clone the repository:
+  ```
+  git clone https://github.com/dan-behar/gbm_tests
+  ```
+- Go to the directory ejercicio3
+  ```
+  cd ejercicio3
+  ```
+- Execute the program:
   ```
   python jumps.py
   ```
-- Or execute:
+- Or execute the tests:
   ```
   python tests3.py
   ```

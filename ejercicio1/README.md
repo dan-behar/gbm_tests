@@ -1,4 +1,12 @@
 ## Ejercicio 1: 
+- Clone the repository:
+  ```
+  git clone https://github.com/dan-behar/gbm_tests
+  ```
+- Go to the directory ejercicio1
+  ```
+  cd ejercicio1
+  ```
 - Execute the program:
   ```
   python palin.py

@@ -2,6 +2,7 @@ def jump(num, step = 0, count = 0):
     # Caso base
     if step == num:
         return count
+    
     # Recursividad
     elif step < 0:
         count = step * - 1
