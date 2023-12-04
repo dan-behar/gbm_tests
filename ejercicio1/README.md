@@ -5,7 +5,7 @@
   ```
 - Go to the directory ejercicio1
   ```
-  cd ejercicio1
+  cd gbm_tests/ejercicio1
   ```
 - Execute the program:
   ```
