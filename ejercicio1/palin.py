@@ -14,3 +14,4 @@ def verifier(palabra):
         return False
 
 word = input("Ingrese una palabra sin tildes: ")
+verifier(word)
