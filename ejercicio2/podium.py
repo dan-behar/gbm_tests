@@ -77,11 +77,19 @@ def positions(info):
             return carreras
         
 def results(res):
-    print(res)
+    index = ""
     for i in range(len(res)):
-        print(res[i].index(max(res[i]))+1)
+        val = max(res[i])
+        for j in range(len(res[i])):
+            if res[i][j] == val:
+                temp = j + 1
+                index = index + str(temp) + " "
+        index = index + "\n"
 
-    
+    f = open("output.txt", "w")
+    f.write(index)
+    f.close()
+        
 
 # Beginning of the program
 print("Ingrese el nombre del archivo de texto asi: nombre.txt")
