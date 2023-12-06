@@ -11,3 +11,4 @@
   ```
   python podium.py
   ```
+After the execution, a file named output.txt will be generated
